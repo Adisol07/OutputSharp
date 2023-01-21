@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>BitOfficial</Company>
+    <Authors>Adisol</Authors>
+    <Description>Allows you to have better logging in your application</Description>
+    <Copyright>MIT License</Copyright>
+  </PropertyGroup>
+
+</Project>
