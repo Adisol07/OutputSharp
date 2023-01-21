@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
             Console.Title = "Test";
             Logger.Flags.Add("useType");
-            Logger.Flags.Add("typeColor:red");
+            Logger.Flags.Add("typeColor:DarkCyan");
             Logger.AddLog(new Log(new LogPart("[Greeting]", ConsoleColor.Cyan), new LogPart(" Hello World!", ConsoleColor.DarkCyan)));
             Logger.ReadKey();
         }

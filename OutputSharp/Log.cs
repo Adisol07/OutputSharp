@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace OutputSharp
 {
+    /// <summary>
+    /// Class for making log from multiple log parts
+    /// </summary>
     public class Log
     {
         public string? ID { get; } = Guid.NewGuid().ToString();
@@ -25,6 +28,9 @@ namespace OutputSharp
             return "[" + Type + "] " + msg;
         }
     }
+    /// <summary>
+    /// Class for making part of the log
+    /// </summary>
     public class LogPart
     {
         public string? Text { get; set; }

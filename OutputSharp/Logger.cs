@@ -6,47 +6,24 @@ using System.Threading.Tasks;
 
 namespace OutputSharp
 {
+    /// <summary>
+    /// Static class for logging logs to console
+    /// </summary>
     public static class Logger
     {
         public static List<string> Flags { get; set; } = new List<string>();
 
         public static void AddLog(Log log)
         {
-            if (Flags.Contains("useType"))
+            if (Flags.Contains("useType") && !Flags.Contains("!useType"))
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 foreach (string flag in Flags)
                 {
                     if (flag.StartsWith("typeColor:"))
                     {
-                        string color = flag.Replace("typeColor:", null).ToLower();
-                        switch (color)
-                        {
-                            case "white":
-                                Console.ForegroundColor = ConsoleColor.White;
-                                break;
-                            case "red":
-                                Console.ForegroundColor = ConsoleColor.Red;
-                                break;
-                            case "yellow":
-                                Console.ForegroundColor = ConsoleColor.Yellow;
-                                break;
-                            case "blue":
-                                Console.ForegroundColor = ConsoleColor.Blue;
-                                break;
-                            case "green":
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                break;
-                            case "cyan":
-                                Console.ForegroundColor = ConsoleColor.Cyan;
-                                break;
-                            case "darkcyan":
-                                Console.ForegroundColor = ConsoleColor.DarkCyan;
-                                break;
-                            case "black":
-                                Console.ForegroundColor = ConsoleColor.Black;
-                                break;
-                        }
+                        string color = flag.Replace("typeColor:", null);
+                        Console.ForegroundColor = Enum.Parse<ConsoleColor>(color);
                         break;
                     }
                 }
