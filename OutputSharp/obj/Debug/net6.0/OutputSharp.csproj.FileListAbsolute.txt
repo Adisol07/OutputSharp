@@ -1,0 +1,12 @@
+D:\VisualStudio\repos\OutputSharp\OutputSharp\bin\Debug\net6.0\OutputSharp.deps.json
+D:\VisualStudio\repos\OutputSharp\OutputSharp\bin\Debug\net6.0\OutputSharp.dll
+D:\VisualStudio\repos\OutputSharp\OutputSharp\bin\Debug\net6.0\OutputSharp.pdb
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\OutputSharp.csproj.AssemblyReference.cache
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\OutputSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\OutputSharp.AssemblyInfoInputs.cache
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\OutputSharp.AssemblyInfo.cs
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\OutputSharp.csproj.CoreCompileInputs.cache
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\OutputSharp.dll
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\refint\OutputSharp.dll
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\OutputSharp.pdb
+D:\VisualStudio\repos\OutputSharp\OutputSharp\obj\Debug\net6.0\ref\OutputSharp.dll
